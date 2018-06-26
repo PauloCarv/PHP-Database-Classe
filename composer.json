@@ -1,0 +1,27 @@
+{
+    "name": "php_bd_class",
+    "description": "#Project: FLAG",
+    "authors": [
+        {
+            "name": "Paulo Carvalho",
+            "email": "paulo@carvalho.ws"
+        }
+    ],
+    "homepage": "https://bitbucket.org/devPauCarv/php_bd_class",
+    "require": {
+        "phpmailer/phpmailer": "~6.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "files": [
+            "src/config.php"
+          
+        ]
+    },
+    "include-path": [
+        "src/"
+    ]
+}
